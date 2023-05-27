@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000;
+}
+.main_sec {
+    width: 480px;
+    margin: 0 auto;
+    border: solid;
+}
+.heading_sec {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+}
+
+.heading_sec span {
+    color: red;
+    font-size: 20px;
+}
+
+.input_sec {
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: #0f0 solid;
+    display: flex;
+    align-items: center;
+}
+.input_sec input {
+    height: 45px;
+    width: 70%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 0 5px;
+}
+p {
+    min-height: 50px;
+}
+.input_sec span button,
+p button {
+    height: 40px;
+    width: 70px;
+    border: solid;
+    margin-left: 5px;
+    border-radius: 25px;
+    background: #ff0000;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #fff;
+    border: none;
+
+}
+
+#add_btn {
+    background: #0f0;
+    color: #000;
+}
+.result {
+    min-height: 50px;
+    margin-top: 20px;
+    color: #fff;
+    border-bottom: solid #0ff;
+    position: relative;
+}
+#editbtn,
+#delbtn {
+    background: rgb(255, 247, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 420px;
+}
+#delbtn {
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: -10px;
+    left: 350px;
+}
+@media ( max-width : 400px) {
+    .main_sec {
+        width: 350px;
+        margin: 0 auto;
+        border: solid;
+    }
+    .result {
+        min-height: 50px;
+        width: 350px;
+        margin-top: 20px;
+        /* background: #0ff; */
+        color: #fff;
+        border-bottom: solid #0ff;
+        position: relative;
+    }
+    #editbtn,
+    #delbtn {
+        background: rgb(255, 247, 0);
+        font-size: 20px;
+        font-weight: bolder;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        left: 300px;
+    }
+    #delbtn {
+        background: rgb(255, 0, 0);
+        position: absolute;
+        top: -10px;
+        left: 230px;
+    }
+    .input_sec span button,
+    p button {
+        height: 40px;
+        width: 70px;
+        border: solid;
+        margin-left: 5px;
+        border-radius: 25px;
+        background: #ff0000;
+        font-size: 15px;
+        font-weight: bolder;
+        color: #fff;
+        border: none
+    }
+    .input_sec {
+        height: 50px;
+        margin-top: 10px;
+        border-bottom: #0f0 solid;
+        display: flex;
+        align-items: center;
+    }
+
+}
